@@ -579,6 +579,20 @@
         ],
         "banten": [
             {
+                "languageId": "early-javanese",
+                "startYear": 0,
+                "endYear": 700,
+                "source": "Wikipedia: Tarumanagara (Early Javanese/Sanskrit influence)",
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "sundanese",
+                "startYear": 700,
+                "endYear": 1500,
+                "source": "Wikipedia: Banten Girang (Sunda Kingdom)",
+                "color": "var(--c-teal-9)"
+            },
+            {
                 "languageId": "middle-javanese",
                 "startYear": 1500,
                 "endYear": 1900,
@@ -605,10 +619,17 @@
         ],
         "west-java": [
             {
+                "languageId": "early-javanese",
+                "startYear": 0,
+                "endYear": 700,
+                "source": "Wikipedia: Tarumanagara (Early Javanese/Sanskrit influence)",
+                "color": "var(--c-teal-2)"
+            },
+            {
                 "languageId": "sundanese",
-                "startYear": 1500,
+                "startYear": 700,
                 "endYear": null,
-                "source": "Wikipedia: Sundanese language",
+                "source": "Wikipedia: Sunda Kingdom",
                 "color": "var(--c-teal-9)"
             },
             {
@@ -677,9 +698,24 @@
         ],
         "madura": [
             {
+                "languageId": "early-javanese",
+                "startYear": 0,
+                "endYear": 700,
+                "source": "Wikipedia: Madurese language",
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "old-javanese",
+                "startYear": 700,
+                "endYear": 1500,
+                "source": "Wikipedia: Madurese language (Literary)",
+                "color": "var(--c-teal-5)"
+            },
+            {
                 "languageId": "madurese",
-                "startYear": 2026,
+                "startYear": 700,
                 "endYear": null,
+                "source": "Source: Badan Bahasa",
                 "color": "var(--c-teal-9)"
             }
         ]

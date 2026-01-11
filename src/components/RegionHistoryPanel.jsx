@@ -107,8 +107,8 @@ const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs
                 <button className="close-btn" onClick={onClose}>×</button>
             </div>
 
-            <div className="timeline-container" ref={containerRef}>
-                <div className="timeline-wrapper" style={{ height: `${totalHeight}px` }}>
+            <div className="timeline-container" ref={containerRef} style={{ overflowX: 'auto' }}>
+                <div className="timeline-wrapper" style={{ height: `${totalHeight}px`, minWidth: '2000px' }}>
                     {/* Axis Lines */}
                     {ticks.map(tick => {
                         const left = ((tick.year - MIN_YEAR) / TOTAL_DURATION) * 100;

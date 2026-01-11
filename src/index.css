@@ -160,10 +160,10 @@ g[opacity="0"] {
 .region-history-panel {
   position: absolute;
   top: 60px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 95%;
-  max-width: 900px;
+  left: 200px;
+  transform: none;
+  width: calc(100% - 80px);
+  max-width: 1600px;
   height: auto;
   max-height: 80vh;
   /* Limit height */
