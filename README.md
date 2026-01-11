@@ -52,3 +52,6 @@ To run this project locally:
     ```bash
     npm run dev
     ```
+
+
+This project was developed by [Andy Bonnetto](https://github.com/andybonnetto), with the help of Google Antigravity.
