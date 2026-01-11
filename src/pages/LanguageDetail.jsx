@@ -1,5 +1,5 @@
 import React from 'react';
-import languageDefinitions from '../data/languageDefinitions_updated.json';
+import languageDefinitions from '../data/languageDefinitions.json';
 
 import { useState } from 'react';
 
@@ -7,8 +7,25 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
     const [isImageModalOpen, setIsImageModalOpen] = useState(false);
     if (!language) return null;
 
-    const findLanguageConfig = (name) => {
-        return Object.values(languageDefinitions.languages).find(l => l.name === name);
+    const findLanguageConfig = (identifier) => {
+        // Try finding by ID/Key first
+        if (languageDefinitions.languages[identifier]) {
+            return {
+                ...languageDefinitions.languages[identifier],
+                id: identifier
+            };
+        }
+        // Fallback to finding by Name
+        const foundKey = Object.keys(languageDefinitions.languages).find(key =>
+            languageDefinitions.languages[key].name === identifier
+        );
+        if (foundKey) {
+            return {
+                ...languageDefinitions.languages[foundKey],
+                id: foundKey
+            };
+        }
+        return null;
     };
 
     const handleNavigate = (name) => {

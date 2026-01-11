@@ -7,7 +7,7 @@ import SidePanel from './components/SidePanel';
 import RegionHistoryPanel from './components/RegionHistoryPanel';
 import ThemeToggle from './components/ThemeToggle';
 import IntroductionSection from './components/IntroductionSection';
-import languageDefinitions from './data/languageDefinitions_updated.json';
+import languageDefinitions from './data/languageDefinitions.json';
 import regionTimeline from './data/regionTimeline.json';
 
 function App() {

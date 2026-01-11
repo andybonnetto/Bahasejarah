@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #0f172a;
+  --bg-color: #0c0e17;
   --text-color: #f8fafc;
   --accent-color: #38bdf8;
   --glass-bg: rgba(30, 41, 59, 0.7);
@@ -32,7 +32,7 @@
 }
 
 [data-theme='light'] {
-  --bg-color: #f0f9ff;
+  --bg-color: #cfd5da;
   --text-color: #0f172a;
   --accent-color: #0284c7;
   --hover-color: #0369a1;
@@ -423,10 +423,12 @@ g[opacity="0"] {
   transition: all 0.2s ease;
 }
 
-.theme-toggle-wrapper:hover {
-  transform: scale(1.1);
-  background: var(--accent-color);
-  border-color: var(--accent-color);
+@media (hover: hover) {
+  .theme-toggle-wrapper:hover {
+    transform: scale(1.1);
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
 /* Timeline Styles */
@@ -477,11 +479,13 @@ g[opacity="0"] {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.floating-action-btn:hover {
-  transform: scale(1.1);
-  background: var(--accent-color);
-  color: white;
-  border-color: var(--accent-color);
+@media (hover: hover) {
+  .floating-action-btn:hover {
+    transform: scale(1.1);
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+  }
 }
 
 .btn-reset {
@@ -689,12 +693,29 @@ g[opacity="0"] {
   }
 
   .theme-toggle-wrapper {
-    top: 150px;
-    right: 20px;
+    top: 5px;
+    right: 5px;
+    padding: 6px;
+  }
+
+  .theme-toggle {
+    padding: 4px !important;
+    width: 20px;
+    height: 20px;
+  }
+
+  .floating-action-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .floating-action-btn svg {
+    width: 20px;
+    height: 20px;
   }
 
   .btn-reset {
-    top: 210px;
+    top: 200px;
     right: 20px;
   }
 }
@@ -799,4 +820,69 @@ g[opacity="0"] {
   background: rgba(0, 0, 0, 0.05);
   /* So it doesn't blend purely into white if transparent */
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Historical Event Markers */
+.historical-event-line {
+  position: absolute;
+  top: 40px;
+  /* Start below the axis labels */
+  bottom: 0px;
+  width: 2px;
+  background: repeating-linear-gradient(to bottom,
+      #ff4444,
+      #ff4444 4px,
+      transparent 4px,
+      transparent 8px);
+  /* Dashed red line */
+  z-index: 5;
+  /* Below active segments (20) but visible */
+  pointer-events: auto;
+  opacity: 0.6;
+  transition: opacity 0.2s, z-index 0.2s;
+}
+
+.historical-event-line:hover {
+  opacity: 1;
+  z-index: 30;
+  /* Bring to top on hover */
+  background: #ff4444;
+  /* Solid on hover */
+}
+
+.historical-event-label {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 68, 68, 0.9);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.historical-event-line:hover .historical-event-label {
+  opacity: 1;
+}
+
+[data-theme='light'] .historical-event-line {
+  background: repeating-linear-gradient(to bottom,
+      #dc2626,
+      #dc2626 4px,
+      transparent 4px,
+      transparent 8px);
+}
+
+[data-theme='light'] .historical-event-line:hover {
+  background: #dc2626;
+}
+
+[data-theme='light'] .historical-event-label {
+  background-color: rgba(220, 38, 38, 0.9);
 }

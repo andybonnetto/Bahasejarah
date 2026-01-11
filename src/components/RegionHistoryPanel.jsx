@@ -1,8 +1,10 @@
-import React, { useRef, useMemo, useEffect } from 'react';
+import React, { useRef, useMemo, useEffect, useState } from 'react';
 import { getLanguageColor, getLanguageStartYears } from '../utils/colorUtils';
+import historicalEvents from '../data/historicalEvents.json';
 
 const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs, onClose, onLanguageClick, currentYear }) => {
     const containerRef = useRef(null);
+    const [showEvents, setShowEvents] = useState(false);
 
     // Constants for timeline
     const MIN_YEAR = -2000;
@@ -123,7 +125,18 @@ const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs
     return (
         <div className="region-history-panel">
             <div className="history-header">
-                <h2>{regionName} History</h2>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+                    <h2>{regionName} History</h2>
+                    <label className="toggle-switch-label" style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '0.9rem' }}>
+                        <input
+                            type="checkbox"
+                            checked={showEvents}
+                            onChange={(e) => setShowEvents(e.target.checked)}
+                            style={{ accentColor: '#ff4444' }}
+                        />
+                        Show Historical Events
+                    </label>
+                </div>
                 <button className="close-btn" onClick={onClose}>×</button>
             </div>
 
@@ -136,6 +149,27 @@ const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs
                             <div key={tick.year} className="axis-line" style={{ left: `${left}%` }}>
                                 <span className="axis-label">{Math.abs(tick.year)} {tick.year < 0 ? 'BC' : 'AD'}</span>
                             </div>
+                        );
+                    })}
+
+                    {/* Historical Events */}
+                    {showEvents && historicalEvents.map((event, index) => {
+                        const left = ((event.year - MIN_YEAR) / TOTAL_DURATION) * 100;
+                        if (left < 0 || left > 100) return null;
+
+                        return (
+                            <a
+                                key={`event-${index}`}
+                                href={event.wikiUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="historical-event-line"
+                                style={{ left: `${left}%` }}
+                                title={`${event.year}: ${event.label} - ${event.description}`}
+                                onClick={(e) => e.stopPropagation()} // Prevent bubble up to container
+                            >
+                                <span className="historical-event-label">{event.label} ({event.year})</span>
+                            </a>
                         );
                     })}
 

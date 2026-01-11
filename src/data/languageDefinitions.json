@@ -127,14 +127,14 @@
         },
         "market-malay": {
             "name": "Market Malay (Bazaar Malay)",
-            "period": "c. 16th - 20th Century",
+            "period": "c. 19th Century - Present",
             "alphabet": "Latin, Jawi",
             "alphabetImage": "/images/alphabets/jawi.gif",
             "parent": "Classical Malay",
             "children": [
                 "Bahasa Indonesia"
             ],
-            "description": "A simplified pidgin Malay used as a lingua franca for trade across the archipelago.",
+            "description": "A simplified pidgin Malay used as a lingua franca for trade across the archipelago, originating from contact between various ethnic groups and foreign traders.",
             "branch": "Malayic"
         },
         "modern-javanese": {
@@ -205,7 +205,8 @@
             "parent": "West Barito",
             "children": [],
             "description": "Spoken in Central Kalimantan (Borneo). A major Dayak language used as a lingua franca.",
-            "branch": "West Barito"
+            "branch": "West Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Ngaju_language"
         },
         "banjar": {
             "name": "Banjar",
@@ -216,6 +217,106 @@
             "children": [],
             "description": "Spoken in South Kalimantan. Influenced by Malay and Javanese. A trade language in Borneo.",
             "branch": "Malayic"
+        },
+        "West Barito": {
+            "name": "West Barito",
+            "period": "c. 200 BC - 1500 AD",
+            "alphabet": "None",
+            "parent": "Proto-Malayo-Polynesian",
+            "children": [
+                "Ngaju",
+                "Bakumpai",
+                "Ot Danum"
+            ],
+            "description": "Ancestral forms of the West Barito languages, spoken in Central Kalimantan.",
+            "branch": "Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Barito_languages"
+        },
+        "East Barito": {
+            "name": "East Barito",
+            "period": "c. 200 BC - 1500 AD",
+            "alphabet": "None",
+            "parent": "Proto-Malayo-Polynesian",
+            "children": [
+                "Ma'anyan",
+                "Lawangan",
+                "Paser",
+                "Benuaq",
+                "Malagasy"
+            ],
+            "description": "Ancestral forms of the East Barito languages, spoken in South and East Kalimantan. Ancestor of Malagasy.",
+            "branch": "Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Barito_languages"
+        },
+        "lawangan": {
+            "name": "Lawangan",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Lawangan people in Central and East Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Lawangan_language"
+        },
+        "paser": {
+            "name": "Paser",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Paser people in East Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Paser_language"
+        },
+        "benuaq": {
+            "name": "Benuaq",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Benuaq people in East Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Benuaq_language"
+        },
+        "maanyan": {
+            "name": "Ma'anyan",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Ma'anyan Dayak people in Central and South Kalimantan. Closely related to Malagasy (Madagascar).",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Ma%27anyan_language"
+        },
+        "tunjung": {
+            "name": "Tunjung",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Tunjung people in East Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Tunjung_language"
+        },
+        "dusun-deyah": {
+            "name": "Dusun Deyah",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Dusun Deyah people in South Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Dusun_Deyah_language"
+        },
+        "malagasy": {
+            "name": "Malagasy",
+            "period": "c. 500 AD - Present",
+            "alphabet": "Latin, Sorabe",
+            "parent": "East Barito",
+            "children": [],
+            "description": "The national language of Madagascar, originating from Southeast Barito languages of Borneo.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Malagasy_language"
         },
         "tombulu": {
             "name": "Tombulu (Minahasan)",

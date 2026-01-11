@@ -12,6 +12,12 @@
                 "startYear": 1500,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "kalimantan": [
@@ -29,24 +35,31 @@
             },
             {
                 "languageId": "lawangan",
-                "startYear": 0,
+                "startYear": 1500,
                 "endYear": null,
                 "source": "Wikipedia: East Barito Languages",
                 "color": "var(--c-teal-8)"
             },
             {
                 "languageId": "paser",
-                "startYear": 0,
+                "startYear": 1500,
                 "endYear": null,
                 "source": "Wikipedia: Paser language",
                 "color": "var(--c-teal-8)"
             },
             {
                 "languageId": "benuaq",
-                "startYear": 0,
+                "startYear": 1500,
                 "endYear": null,
                 "source": "Wikipedia: Benuaq language",
                 "color": "var(--c-teal-8)"
+            },
+            {
+                "languageId": "East Barito",
+                "startYear": 0,
+                "endYear": 1500,
+                "source": "Wikipedia: Ma'anyan (Dayak Barito) - Malagasy Ancestors",
+                "color": "var(--c-teal-2)"
             },
             {
                 "languageId": "banjar",
@@ -59,6 +72,12 @@
                 "startYear": 1500,
                 "endYear": 1900,
                 "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "sulawesi-tengah": [
@@ -73,6 +92,12 @@
                 "startYear": 1500,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "all": [
@@ -83,14 +108,8 @@
                 "color": "var(--c-teal-1)"
             },
             {
-                "languageId": "market-malay",
-                "startYear": 1900,
-                "endYear": 2026,
-                "color": "var(--c-teal-8)"
-            },
-            {
                 "languageId": "bahasa-indonesia",
-                "startYear": 2026,
+                "startYear": 1925,
                 "endYear": null,
                 "color": "var(--c-teal-10)"
             }
@@ -121,6 +140,12 @@
                 "startYear": 0,
                 "endYear": null,
                 "color": "var(--c-teal-8)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "flores": [
@@ -129,6 +154,12 @@
                 "startYear": -1000,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "sumba": [
@@ -137,6 +168,12 @@
                 "startYear": -1000,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "timor": [
@@ -145,6 +182,12 @@
                 "startYear": -1000,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "papua": [
@@ -153,6 +196,12 @@
                 "startYear": -1000,
                 "endYear": null,
                 "color": "var(--c-brown)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "maluku": [
@@ -170,7 +219,13 @@
             },
             {
                 "languageId": "ambonese-malay",
-                "startYear": 2026,
+                "startYear": 1997,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
                 "endYear": null,
                 "color": "var(--c-teal-8)"
             }
@@ -197,6 +252,12 @@
                 "startYear": 1500,
                 "endYear": null,
                 "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-8)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
                 "color": "var(--c-teal-8)"
             }
         ],
@@ -234,7 +295,7 @@
             {
                 "languageId": "modern-javanese",
                 "startYear": 1900,
-                "endYear": 2026,
+                "endYear": null,
                 "color": "var(--c-teal-9)"
             },
             {
@@ -278,36 +339,18 @@
             {
                 "languageId": "arekan",
                 "startYear": 1900,
-                "endYear": 2026,
-                "color": "var(--c-teal-9)"
-            },
-            {
-                "languageId": "arekan",
-                "startYear": 2026,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
             },
             {
                 "languageId": "osing",
                 "startYear": 1900,
-                "endYear": 2026,
-                "color": "var(--c-teal-9)"
-            },
-            {
-                "languageId": "osing",
-                "startYear": 2026,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
             },
             {
                 "languageId": "tengger",
                 "startYear": 1900,
-                "endYear": 2026,
-                "color": "var(--c-teal-9)"
-            },
-            {
-                "languageId": "tengger",
-                "startYear": 2026,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
             },
@@ -346,7 +389,7 @@
             {
                 "languageId": "modern-javanese",
                 "startYear": 1900,
-                "endYear": 2026,
+                "endYear": null,
                 "color": "var(--c-teal-9)"
             },
             {
@@ -390,6 +433,12 @@
                 "startYear": 1500,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "kepulauan-riau": [
@@ -410,6 +459,12 @@
                 "startYear": 1500,
                 "endYear": null,
                 "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
             }
         ],
         "madurese": [
@@ -429,6 +484,38 @@
             }
         ],
         "sumatra": [
+            {
+                "languageId": "early-malay",
+                "startYear": 0,
+                "endYear": 700,
+                "color": "var(--c-teal-3)"
+            },
+            {
+                "languageId": "old-malay",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-4)"
+            },
+            {
+                "languageId": "sanskrit",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-4)"
+            },
+            {
+                "languageId": "classical-malay",
+                "startYear": 1500,
+                "endYear": 1900,
+                "color": "var(--c-teal-6)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1800,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "bengkulu": [
             {
                 "languageId": "early-malay",
                 "startYear": 0,
@@ -641,7 +728,7 @@
             {
                 "languageId": "modern-javanese",
                 "startYear": 1900,
-                "endYear": 2026,
+                "endYear": null,
                 "color": "var(--c-teal-9)"
             }
         ],
@@ -677,7 +764,7 @@
             {
                 "languageId": "modern-javanese",
                 "startYear": 1900,
-                "endYear": 2026,
+                "endYear": null,
                 "color": "var(--c-teal-9)"
             }
         ],
@@ -691,7 +778,7 @@
         ],
         "banjar": [
             {
-                "languageId": "maanyan",
+                "languageId": "East Barito",
                 "startYear": 0,
                 "endYear": 1500,
                 "source": "Wikipedia: Ma'anyan (Dayak Barito) - Malagasy Ancestors",
@@ -714,6 +801,13 @@
         ],
         "ngaju": [
             {
+                "languageId": "West Barito",
+                "startYear": 0,
+                "endYear": 1500,
+                "source": "Wikipedia: Ngaju language (West Barito)",
+                "color": "var(--c-teal-2)"
+            },
+            {
                 "languageId": "ngaju",
                 "startYear": 1500,
                 "endYear": null,
@@ -727,14 +821,6 @@
                 "startYear": 1500,
                 "endYear": null,
                 "source": "Source: Badan Bahasa",
-                "color": "var(--c-teal-8)"
-            }
-        ],
-        "archipelago": [
-            {
-                "languageId": "market-malay",
-                "startYear": 1900,
-                "endYear": null,
                 "color": "var(--c-teal-8)"
             }
         ],

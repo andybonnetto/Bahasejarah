@@ -1,0 +1,86 @@
+[
+    {
+        "year": 400,
+        "label": "Rise of Kutai",
+        "description": "Establishment of the Kutai Martadipura Kingdom, the earliest known Hindu kingdom in Indonesia.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Kutai_Martadipura_Kingdom"
+    },
+    {
+        "year": 671,
+        "label": "Rise of Srivijaya",
+        "description": "The Srivijaya maritime empire establishes itself as a dominant power in Sumatra and the Malay Archipelago.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Srivijaya"
+    },
+    {
+        "year": 804,
+        "label": "Establishment of Perlak",
+        "description": "Establishment of the Sultanate of Perlak, often cited as the earliest Islamic kingdom in the region.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Peureulak_Sultanate"
+    },
+    {
+        "year": 1293,
+        "label": "Founding of Majapahit",
+        "description": "Raden Wijaya establishes the Majapahit Empire, which would become the largest empire in Indonesian history.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Majapahit"
+    },
+    {
+        "year": 1511,
+        "label": "Portuguese capture Malacca",
+        "description": "The Portuguese conquest of Malacca marks the beginning of European colonial presence in the archipelago.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Capture_of_Malacca_(1511)"
+    },
+    {
+        "year": 1527,
+        "label": "Fall of Majapahit",
+        "description": "The Majapahit Empire falls to the Demak Sultanate, marking the end of the Hindu-Buddhist era in Java.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Majapahit#Decline"
+    },
+    {
+        "year": 1641,
+        "label": "Dutch capture Malacca",
+        "description": "The Dutch seize Malacca from the Portuguese, consolidating their power in the region.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Battle_of_Malacca_(1641)"
+    },
+    {
+        "year": 1808,
+        "label": "Daendels Arrives",
+        "description": "Herman Willem Daendels arrives as Governor-General, implementing major administrative and military reforms under French influence.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Herman_Willem_Daendels#Governor-General_of_the_Dutch_East_Indies"
+    },
+    {
+        "year": 1811,
+        "label": "British Interregnum",
+        "description": "The British invade Java and establish a short-lived administration under Stamford Raffles.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/French_and_British_interregnum_in_the_Dutch_East_Indies"
+    },
+    {
+        "year": 1901,
+        "label": "Dutch Ethical Policy",
+        "description": "Introduction of the Ethical Policy, aiming to improve the welfare of the indigenous population and unintentionally fostering nationalism.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Dutch_Ethical_Policy"
+    },
+    {
+        "year": 1942,
+        "label": "Japanese Occupation",
+        "description": "Japan occupies the Dutch East Indies during World War II, effectively ending Dutch colonial rule.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies"
+    },
+    {
+        "year": 1945,
+        "label": "Proclamation of Independence",
+        "description": "Sukarno and Hatta proclaim the independence of Indonesia on August 17th.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Proclamation_of_Indonesian_Independence"
+    },
+    {
+        "year": 1949,
+        "label": "Recognition of Sovereignty",
+        "description": "The Netherlands formally recognizes Indonesian sovereignty after four years of diplomatic and armed struggle.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Dutch%E2%80%93Indonesian_Round_Table_Conference"
+    },
+    {
+        "year": 1998,
+        "label": "Reformasi",
+        "description": "The fall of President Suharto marks the beginning of the Reformasi era and the transition to democracy.",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Fall_of_Suharto"
+    }
+]

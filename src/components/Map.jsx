@@ -14,11 +14,11 @@ const REGION_MAPPING = {
   // Sumatra
   'Aceh': 'aceh', // Fixed mapping from sumatra to aceh
   'Sumatera-Utara': 'sumatra',
-  'Sumatera-Barat': 'sumatra', // Or minangkabau? Check timeline keys.
+  'Sumatera-Barat': 'minangkabau', // Or minangkabau? Check timeline keys.
   'Riau': 'sumatra',
   'Kepulauan-Riau': 'kepulauan-riau',
   'Jambi': 'sumatra',
-  'Bengkulu': 'sumatra',
+  'Bengkulu': 'bengkulu',
   'Sumatera-Selatan': 'sumatra',
   'Lampung': 'lampung',
   'Pulau-Bangka': 'sumatra',
@@ -28,7 +28,7 @@ const REGION_MAPPING = {
 
   // Kalimantan
   'Kalimantan-Barat': 'kalimantan',
-  'Kalimantan-Tengah': 'kalimantan', // or ngaju?
+  'Kalimantan-Tengah': 'ngaju', // or ngaju?
   'Kalimantan-Selatan': 'banjar',
   'Kalimantan-Utara---Kalimantan-Timur': 'kalimantan',
 
