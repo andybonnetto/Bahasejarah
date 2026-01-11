@@ -1,5 +1,5 @@
-<div align="center">
-  <img src="public/logo.svg" alt="Bahasejarah" />
+<div align="left">
+  <img src="public/ForGithub.svg" alt="Bahasejarah" width="150%"/>
 </div>
 
 [![Visit Website](https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge)](https://andybonnetto.github.io/Bahasejarah/)
