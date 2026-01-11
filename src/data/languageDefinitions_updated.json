@@ -27,7 +27,8 @@
             ],
             "description": "Early forms of Malayic languages spoken in Borneo and Sumatra.",
             "branch": "Malayic",
-            "source": "Adelaar, K. Alexander (2004). The Austronesian Languages of Asia and Madagascar"
+            "source": "Adelaar, K. Alexander (2004). The Austronesian Languages of Asia and Madagascar",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Proto-Malayic_language"
         },
         "early-javanese": {
             "name": "Early Javanese",
@@ -40,7 +41,8 @@
             ],
             "description": "Ancestral form of Javanese and Sundanese spoken in Java.",
             "branch": "Javanese",
-            "source": "Ogloblin, Alexander K. (2005). Javanese"
+            "source": "Ogloblin, Alexander K. (2005). Javanese",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Old_Javanese_language"
         },
         "old-malay": {
             "name": "Old Malay",
@@ -69,7 +71,8 @@
             ],
             "description": "The literary language of early Javanese kingdoms, rich in Sanskrit loanwords.",
             "branch": "Javanese",
-            "source": "Zoetmulder, P.J. (1974). Kalangwan: A Survey of Old Javanese Literature"
+            "source": "Zoetmulder, P.J. (1974). Kalangwan: A Survey of Old Javanese Literature",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Old_Javanese_language"
         },
         "sanskrit": {
             "name": "Sanskrit",
@@ -128,7 +131,8 @@
             ],
             "description": "Transitional phase of Javanese, showing increased Islamic influence.",
             "branch": "Javanese",
-            "source": "Poedjosoedarmo, Soepomo (1968). Javanese Speech Levels"
+            "source": "Poedjosoedarmo, Soepomo (1968). Javanese Speech Levels",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Javanese_language"
         },
         "market-malay": {
             "name": "Market Malay (Bazaar Malay)",
@@ -140,7 +144,8 @@
                 "Bahasa Indonesia"
             ],
             "description": "A simplified pidgin Malay used as a lingua franca for trade across the archipelago.",
-            "branch": "Malayic"
+            "branch": "Malayic",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Bazaar_Malay"
         },
         "modern-javanese": {
             "name": "Modern Javanese",
@@ -150,7 +155,8 @@
             "parent": "Middle Javanese",
             "children": [],
             "description": "The Javanese language as spoken today, with complex speech levels.",
-            "branch": "Javanese"
+            "branch": "Javanese",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Javanese_language"
         },
         "sundanese": {
             "name": "Sundanese",
@@ -236,7 +242,8 @@
             "parent": "Proto-Minahasan",
             "children": [],
             "description": "A Minahasan language spoken in North Sulawesi, around Tomohon.",
-            "branch": "Minahasan"
+            "branch": "Minahasan",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Tombulu_language"
         },
         "gorontalo": {
             "name": "Gorontalo",
@@ -335,7 +342,8 @@
                 "Sumbawa"
             ],
             "description": "Ancestral group of languages in Bali and West Nusa Tenggara.",
-            "branch": "Malayo-Polynesian"
+            "branch": "Malayo-Polynesian",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Bali%E2%80%93Sasak%E2%80%93Sumbawa_languages"
         },
         "central-eastern-mp": {
             "name": "Central-Eastern Malayo-Polynesian",
@@ -358,7 +366,8 @@
             "parent": "Various Families",
             "children": [],
             "description": "Diverse non-Austronesian languages indigenous to New Guinea and neighboring islands.",
-            "branch": "Papuan"
+            "branch": "Papuan",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Papuan_languages"
         },
         "proto-south-sulawesi": {
             "name": "Proto-South-Sulawesi",
@@ -377,7 +386,8 @@
                 "Bugis"
             ],
             "description": "Ancestor of major South Sulawesi languages.",
-            "branch": "South Sulawesi"
+            "branch": "South Sulawesi",
+            "wikiUrl": "https://en.wikipedia.org/wiki/South_Sulawesi_languages"
         },
         "toraja": {
             "name": "Toraja (Sa'dan/Kalumpang/Mamasa)",
@@ -386,7 +396,8 @@
             "parent": "Proto-South-Sulawesi",
             "children": [],
             "description": "A group of languages spoken in the mountainous interior of South and West Sulawesi.",
-            "branch": "South Sulawesi"
+            "branch": "South Sulawesi",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Toraja-Sa%27dan_language"
         },
         "massenrempulu": {
             "name": "Massenrempulu (Duri/Enrekang)",
@@ -395,7 +406,8 @@
             "parent": "Proto-South-Sulawesi",
             "children": [],
             "description": "Transitional languages between Bugis and Toraja.",
-            "branch": "South Sulawesi"
+            "branch": "South Sulawesi",
+            "wikiUrl": "https://en.wikipedia.org/wiki/South_Sulawesi_languages"
         },
         "pitu-ulunna-salu": {
             "name": "Pitu Ulunna Salu",
@@ -470,7 +482,8 @@
             "children": [],
             "description": "Dialect of Javanese spoken in Banten (Serang, Cilegon). Retains archaic features from the Sultanate era.",
             "branch": "Javanese",
-            "source": "Multamia R.M.T. Lauder (1993). Pemetaan dan Distribusi Bahasa-Bahasa di Tangerang"
+            "source": "Multamia R.M.T. Lauder (1993). Pemetaan dan Distribusi Bahasa-Bahasa di Tangerang",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Bantenese_language"
         },
         "cirebonese": {
             "name": "Cirebonese (Basa Cerbon)",
@@ -481,7 +494,8 @@
             "children": [],
             "description": "Spoken in Cirebon and Indramayu. Acknowledged as a distinct dialect with considerable Sundanese influence.",
             "branch": "Javanese",
-            "source": "Ayatrohaedi (1985). Bahasa Sunda di Daerah Cirebon"
+            "source": "Ayatrohaedi (1985). Bahasa Sunda di Daerah Cirebon",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Cirebonese_dialect"
         },
         "banyumasan": {
             "name": "Banyumasan (Ngapak)",
@@ -492,7 +506,8 @@
             "children": [],
             "description": "Known for its 'Ngapak' pronunciation (retaining 'a' sound where standard uses 'o'). Spoken in western Central Java.",
             "branch": "Javanese",
-            "source": "Wedhawati et al. (2006). Tata Bahasa Jawa Mutakhir"
+            "source": "Wedhawati et al. (2006). Tata Bahasa Jawa Mutakhir",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Banyumasan_dialect"
         },
         "mataraman": {
             "name": "Mataraman (Standard Javanese)",
@@ -503,7 +518,8 @@
             "children": [],
             "description": "The prestige dialect of Surakarta and Yogyakarta, forming the basis of standard Javanese.",
             "branch": "Javanese",
-            "source": "Wedhawati et al. (2006). Tata Bahasa Jawa Mutakhir"
+            "source": "Wedhawati et al. (2006). Tata Bahasa Jawa Mutakhir",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Javanese_language"
         },
         "arekan": {
             "name": "Arekan (Surabayan/Malangan)",
@@ -514,7 +530,8 @@
             "children": [],
             "description": "Spoken in East Java (Surabaya, Malang). Known for its egalitarian and direct nature.",
             "branch": "Javanese",
-            "source": "Krauße, Daniel (2017). A Description of Surabayan Javanese"
+            "source": "Krauße, Daniel (2017). A Description of Surabayan Javanese",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Arekan_Javanese"
         },
         "osing": {
             "name": "Osing",

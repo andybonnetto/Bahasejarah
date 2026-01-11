@@ -1,5 +1,5 @@
 import React from 'react';
-import languageDefinitions from '../data/languageDefinitions.json';
+import languageDefinitions from '../data/languageDefinitions_updated.json';
 
 import { useState } from 'react';
 
@@ -83,7 +83,7 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
                         {language.alphabetImage && (
                             <div style={{ marginTop: '10px' }}>
                                 <img
-                                    src={language.alphabetImage}
+                                    src={`${import.meta.env.BASE_URL}${language.alphabetImage.startsWith('/') ? language.alphabetImage.substring(1) : language.alphabetImage}`}
                                     alt={`${language.name} alphabet`}
                                     style={{
                                         maxWidth: '100%',
@@ -147,7 +147,7 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
                 <div>
                     <h3>Learn More</h3>
                     <ul style={{ listStyle: 'none', padding: 0 }}>
-                        <li><a href={`https://en.wikipedia.org/wiki/${language.name.replace(' ', '_')}_language`} target="_blank" rel="noreferrer" style={{ color: 'var(--accent-color)', textDecoration: 'none' }}>Wikipedia: {language.name}</a></li>
+                        <li><a href={language.wikiUrl} target="_blank" rel="noreferrer" style={{ color: 'var(--accent-color)', textDecoration: 'none' }}>Wikipedia: {language.name}</a></li>
                     </ul>
                 </div>
             </div>
@@ -171,7 +171,7 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
                 >
                     <div style={{ position: 'relative', maxWidth: '90%', maxHeight: '90%' }}>
                         <img
-                            src={language.alphabetImage}
+                            src={`${import.meta.env.BASE_URL}${language.alphabetImage.startsWith('/') ? language.alphabetImage.substring(1) : language.alphabetImage}`}
                             alt={`${language.name} alphabet`}
                             style={{
                                 maxWidth: '100%',
