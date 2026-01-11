@@ -129,6 +129,11 @@ body {
   /* Always light text for dark glass */
 }
 
+/* Light mode override for glass panel text */
+[data-theme='light'] .glass-panel {
+  color: var(--text-color);
+}
+
 h1,
 h2,
 h3 {
@@ -567,4 +572,106 @@ g[opacity="0"] {
   .info-panel {
     display: none !important;
   }
+}
+
+/* =========================================
+   Language Detail Page Styles (Theme Aware)
+   ========================================= */
+
+.lang-back-btn {
+  background: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.lang-back-btn:hover {
+  background: rgba(56, 189, 248, 0.1);
+}
+
+.lang-link {
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.05);
+  /* Default Dark */
+  border-radius: 8px;
+  cursor: default;
+  border: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.lang-link.clickable {
+  background: rgba(56, 189, 248, 0.1);
+  cursor: pointer;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.lang-link.clickable:hover {
+  background: rgba(56, 189, 248, 0.2);
+}
+
+.lang-tag {
+  padding: 8px 12px;
+  background: rgba(56, 189, 248, 0.2);
+  border-radius: 8px;
+  border: 1px solid var(--accent-color);
+  display: inline-block;
+}
+
+.alphabet-img-container {
+  margin-top: 10px;
+}
+
+.alphabet-img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.alphabet-img:hover {
+  transform: scale(105%);
+}
+
+.source-text {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
+.wiki-link {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.wiki-link:hover {
+  text-decoration: underline;
+}
+
+/* Light Mode Overrides for Language Detail */
+[data-theme='light'] .lang-link:not(.clickable) {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--text-color);
+}
+
+[data-theme='light'] .lang-tag {
+  background: rgba(2, 132, 199, 0.1);
+  /* Darker accent low opacity */
+  color: var(--text-color);
+}
+
+[data-theme='light'] .alphabet-img {
+  background: rgba(0, 0, 0, 0.05);
+  /* So it doesn't blend purely into white if transparent */
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }

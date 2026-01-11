@@ -26,15 +26,7 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
             <span
                 key={name}
                 onClick={() => isClickable && handleNavigate(name)}
-                style={{
-                    padding: '8px 12px',
-                    background: isClickable ? 'rgba(56, 189, 248, 0.1)' : 'rgba(255,255,255,0.05)',
-                    borderRadius: '8px',
-                    cursor: isClickable ? 'pointer' : 'default',
-                    border: isClickable ? '1px solid rgba(56, 189, 248, 0.3)' : 'none',
-                    transition: 'all 0.3s ease'
-                }}
-                className={isClickable ? "hover:bg-blue-500/20" : ""}
+                className={`lang-link ${isClickable ? "clickable" : ""}`}
             >
                 {name}
             </span>
@@ -45,16 +37,7 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
         <div className="language-detail-container">
             <button
                 onClick={onBack}
-                style={{
-                    background: 'transparent',
-                    border: '1px solid var(--accent-color)',
-                    color: 'var(--accent-color)',
-                    padding: '8px 16px',
-                    borderRadius: '8px',
-                    cursor: 'pointer',
-                    marginBottom: '20px',
-                    fontSize: '1rem'
-                }}
+                className="lang-back-btn"
             >
                 ← Back to Map
             </button>
@@ -71,21 +54,11 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
                         <h3>Writing System</h3>
                         <p>{language.alphabet}</p>
                         {language.alphabetImage && (
-                            <div style={{ marginTop: '10px' }}>
+                            <div className="alphabet-img-container">
                                 <img
                                     src={`${import.meta.env.BASE_URL}${language.alphabetImage.startsWith('/') ? language.alphabetImage.substring(1) : language.alphabetImage}`}
                                     alt={`${language.name} alphabet`}
-                                    style={{
-                                        maxWidth: '100%',
-                                        maxHeight: '150px',
-                                        objectFit: 'contain',
-                                        background: 'rgba(255,255,255,0.8)',
-                                        padding: '5px',
-                                        borderRadius: '8px',
-                                        cursor: 'pointer',
-                                        transition: 'transform 0.2s'
-                                    }}
-                                    className="hover:scale-105"
+                                    className="alphabet-img"
                                     onClick={() => setIsImageModalOpen(true)}
                                 />
                             </div>
@@ -99,7 +72,7 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
                     {language.source && (
                         <div>
                             <h3>Source</h3>
-                            <p style={{ fontStyle: 'italic', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
+                            <p className="source-text">
                                 {language.source}
                             </p>
                         </div>
@@ -121,7 +94,7 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
                             </>
                         )}
 
-                        <span style={{ padding: '8px 12px', background: 'rgba(56, 189, 248, 0.2)', borderRadius: '8px', border: '1px solid var(--accent-color)' }}>{language.name}</span>
+                        <span className="lang-tag">{language.name}</span>
 
                         {language.children && language.children.length > 0 && (
                             <>
@@ -137,7 +110,7 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
                 <div>
                     <h3>Learn More</h3>
                     <ul style={{ listStyle: 'none', padding: 0 }}>
-                        <li><a href={language.wikiUrl} target="_blank" rel="noreferrer" style={{ color: 'var(--accent-color)', textDecoration: 'none' }}>Wikipedia: {language.name}</a></li>
+                        <li><a href={language.wikiUrl} target="_blank" rel="noreferrer" className="wiki-link">Wikipedia: {language.name}</a></li>
                     </ul>
                 </div>
             </div>
