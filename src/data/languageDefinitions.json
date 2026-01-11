@@ -1,0 +1,514 @@
+{
+    "languages": {
+        "proto-malayo-polynesian": {
+            "name": "Proto-Malayo-Polynesian",
+            "period": "c. 2000 BC - 1000 BC",
+            "alphabet": "None (Reconstructed)",
+            "parent": "Proto-Austronesian",
+            "children": [
+                "Proto-Malay",
+                "Proto-Javanese",
+                "Proto-Chamic",
+                "Proto-South-Sulawesi",
+                "Proto-Minahasan"
+            ],
+            "description": "The ancestral language of the Malayo-Polynesian branch of the Austronesian language family.",
+            "branch": "Austronesian",
+            "source": "Blust, Robert (1999). Subgrouping, circularity and extinction: Some issues in Austronesian comparative linguistics"
+        },
+        "early-malay": {
+            "name": "Early Malayic",
+            "period": "c. 1000 BC - 500 AD",
+            "alphabet": "None",
+            "parent": "Proto-Malayo-Polynesian",
+            "children": [
+                "Old Malay"
+            ],
+            "description": "Early forms of Malayic languages spoken in Borneo and Sumatra.",
+            "branch": "Malayic",
+            "source": "Adelaar, K. Alexander (2004). The Austronesian Languages of Asia and Madagascar"
+        },
+        "early-javanese": {
+            "name": "Early Javanese",
+            "period": "c. 1000 BC - 500 AD",
+            "alphabet": "None",
+            "parent": "Proto-Malayo-Polynesian",
+            "children": [
+                "Old Javanese",
+                "Old Sundanese"
+            ],
+            "description": "Ancestral form of Javanese and Sundanese spoken in Java.",
+            "branch": "Javanese",
+            "source": "Ogloblin, Alexander K. (2005). Javanese"
+        },
+        "old-malay": {
+            "name": "Old Malay",
+            "period": "c. 7th - 13th Century",
+            "alphabet": "Pallava, later Kawi",
+            "alphabetImage": "/images/alphabets/pallava.gif",
+            "parent": "Proto-Malay",
+            "children": [
+                "Classical Malay",
+                "Minangkabau"
+            ],
+            "description": "The language of the Srivijaya empire, heavily influenced by Sanskrit.",
+            "branch": "Malayic",
+            "source": "Teeuw, A. (1959). The history of the Malay language"
+        },
+        "old-javanese": {
+            "name": "Old Javanese (Kawi)",
+            "period": "c. 8th - 15th Century",
+            "alphabet": "Kawi",
+            "alphabetImage": "/images/alphabets/kawi.gif",
+            "parent": "Proto-Javanese",
+            "children": [
+                "Middle Javanese",
+                "Balinese"
+            ],
+            "description": "The literary language of early Javanese kingdoms, rich in Sanskrit loanwords.",
+            "branch": "Javanese",
+            "source": "Zoetmulder, P.J. (1974). Kalangwan: A Survey of Old Javanese Literature"
+        },
+        "sanskrit": {
+            "name": "Sanskrit",
+            "period": "Historical Influence",
+            "alphabet": "Devanagari/Pallava",
+            "alphabetImage": "/images/alphabets/devanagari.gif",
+            "parent": "Indo-Aryan",
+            "children": [
+                "Old Javanese",
+                "Old Malay"
+            ],
+            "description": "Ancient Indo-Aryan language that heavily influenced the vocabulary and scripts of the archipelago.",
+            "branch": "Indo-European"
+        },
+        "proto-malay": {
+            "name": "Proto-Malay",
+            "period": "c. 1000 BC - 600 AD",
+            "alphabet": "None",
+            "parent": "Proto-Malayo-Polynesian",
+            "children": [
+                "Old Malay",
+                "Iban",
+                "Minangkabau",
+                "Banjar"
+            ],
+            "description": "The common ancestor of all Malayic languages.",
+            "branch": "Malayic",
+            "source": "Collins, James T. (1998). Malay, World Language: A Short History"
+        },
+        "classical-malay": {
+            "name": "Classical Malay",
+            "period": "c. 14th - 18th Century",
+            "alphabet": "Jawi (Arabic script)",
+            "alphabetImage": "/images/alphabets/jawi.gif",
+            "parent": "Old Malay",
+            "children": [
+                "Modern Malay",
+                "Bahasa Indonesia",
+                "Market Malay"
+            ],
+            "description": "The language of trade and court during the Islamic sultanates.",
+            "branch": "Malayic",
+            "source": "Sneddon, James N. (2003). The Indonesian Language: Its History and Role in Modern Society"
+        },
+        "middle-javanese": {
+            "name": "Middle Javanese",
+            "period": "c. 15th - 17th Century",
+            "alphabet": "Javanese (Carakan)",
+            "alphabetImage": "/images/alphabets/javanese.gif",
+            "parent": "Old Javanese",
+            "children": [
+                "Modern Javanese"
+            ],
+            "description": "Transitional phase of Javanese, showing increased Islamic influence.",
+            "branch": "Javanese",
+            "source": "Poedjosoedarmo, Soepomo (1968). Javanese Speech Levels"
+        },
+        "market-malay": {
+            "name": "Market Malay (Bazaar Malay)",
+            "period": "c. 16th - 20th Century",
+            "alphabet": "Latin, Jawi",
+            "alphabetImage": "/images/alphabets/jawi.gif",
+            "parent": "Classical Malay",
+            "children": [
+                "Bahasa Indonesia"
+            ],
+            "description": "A simplified pidgin Malay used as a lingua franca for trade across the archipelago.",
+            "branch": "Malayic"
+        },
+        "modern-javanese": {
+            "name": "Modern Javanese",
+            "period": "c. 18th Century - Present",
+            "alphabet": "Javanese (Carakan), Latin",
+            "alphabetImage": "/images/alphabets/javanese.gif",
+            "parent": "Middle Javanese",
+            "children": [],
+            "description": "The Javanese language as spoken today, with complex speech levels.",
+            "branch": "Javanese"
+        },
+        "sundanese": {
+            "name": "Sundanese",
+            "period": "10th Century - Present",
+            "alphabet": "Old Sundanese, Javanese, Pegon, Latin",
+            "alphabetImage": "/images/alphabets/sundanese.gif",
+            "parent": "Early Javanese",
+            "children": [],
+            "description": "Spoken in Western Java. Has its own script (Aksara Sunda) and distinct speech levels.",
+            "branch": "Malayo-Polynesian"
+        },
+        "madurese": {
+            "name": "Madurese",
+            "period": "c. 1st Millennium AD - Present",
+            "alphabet": "Carakan, Latin",
+            "alphabetImage": "/images/alphabets/javanese.gif",
+            "parent": "Malayo-Sumbawan",
+            "children": [],
+            "description": "Spoken on Madura Island and Eastern Java. Closely related to Sundanese and Javanese but distinct.",
+            "branch": "Malayo-Polynesian",
+            "source": "Davies, William D. (2010). A Grammar of Madurese"
+        },
+        "balinese": {
+            "name": "Balinese",
+            "period": "10th Century - Present",
+            "alphabet": "Balinese script (Aksara Bali), Latin",
+            "alphabetImage": "/images/alphabets/balinese.gif",
+            "parent": "Malayo-Sumbawan",
+            "children": [],
+            "description": "Spoken in Bali, Lombok, and Eastern Java. Heavily influenced by Kawi (Old Javanese).",
+            "branch": "Malayo-Polynesian",
+            "source": "Clynes, Adrian (1995). Topics in the Phonology and Morphosyntax of Balinese"
+        },
+        "minangkabau": {
+            "name": "Minangkabau",
+            "period": "Pre-7th Century - Present",
+            "alphabet": "Latin",
+            "parent": "Proto-Malay",
+            "children": [],
+            "description": "Spoken in West Sumatra. Closely related to Malay but distinct phonologically and grammatically.",
+            "branch": "Malayic"
+        },
+        "lampung": {
+            "name": "Lampung",
+            "period": "Unknown - Present",
+            "alphabet": "Lampung script (Kaganga), Latin",
+            "alphabetImage": "/images/alphabets/lampung.gif",
+            "parent": "Lampungic",
+            "children": [],
+            "description": "Spoken in Lampung province (Southern Sumatra). Has its own abugida script.",
+            "branch": "Lampungic"
+        },
+        "ngaju": {
+            "name": "Ngaju",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "West Barito",
+            "children": [],
+            "description": "Spoken in Central Kalimantan (Borneo). A major Dayak language used as a lingua franca.",
+            "branch": "West Barito"
+        },
+        "banjar": {
+            "name": "Banjar",
+            "period": "14th Century - Present",
+            "alphabet": "Jawi, Latin",
+            "alphabetImage": "/images/alphabets/jawi.gif",
+            "parent": "Proto-Malay",
+            "children": [],
+            "description": "Spoken in South Kalimantan. Influenced by Malay and Javanese. A trade language in Borneo.",
+            "branch": "Malayic"
+        },
+        "tombulu": {
+            "name": "Tombulu (Minahasan)",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Proto-Minahasan",
+            "children": [],
+            "description": "A Minahasan language spoken in North Sulawesi, around Tomohon.",
+            "branch": "Minahasan"
+        },
+        "gorontalo": {
+            "name": "Gorontalo",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Gorontalic",
+            "children": [],
+            "description": "Spoken in Gorontalo province, northern Sulawesi.",
+            "branch": "Gorontalic"
+        },
+        "mandar": {
+            "name": "Mandar",
+            "period": "Unknown - Present",
+            "alphabet": "Lontara, Latin",
+            "alphabetImage": "/images/alphabets/lontara.gif",
+            "parent": "South Sulawesi",
+            "children": [],
+            "description": "Spoken in West Sulawesi. Historically influential maritime culture.",
+            "branch": "South Sulawesi"
+        },
+        "kaili": {
+            "name": "Kaili",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Kaili-Pamona",
+            "children": [],
+            "description": "A major language of Central Sulawesi (Palu valley).",
+            "branch": "Kaili-Pamona"
+        },
+        "bugis": {
+            "name": "Bugis",
+            "period": "c. 1000 BC - Present (Proto-SS)",
+            "alphabet": "Lontara, Latin",
+            "alphabetImage": "/images/alphabets/lontara.gif",
+            "parent": "South Sulawesi",
+            "children": [],
+            "description": "Spoken by the Bugis people of South Sulawesi. Famous for the I La Galigo epic and maritime history.",
+            "branch": "South Sulawesi",
+            "source": "Pelras, Christian (1996). The Bugis"
+        },
+        "makassarese": {
+            "name": "Makassarese",
+            "period": "Unknown - Present",
+            "alphabet": "Lontara, Latin",
+            "alphabetImage": "/images/alphabets/lontara.gif",
+            "parent": "South Sulawesi",
+            "children": [],
+            "description": "Spoken in the southern tip of Sulawesi (Makassar/Gowa). Closely related to Bugis.",
+            "branch": "South Sulawesi"
+        },
+        "wolio": {
+            "name": "Wolio",
+            "period": "15th Century - Present",
+            "alphabet": "Buri Wolio (Arabic), Latin",
+            "alphabetImage": "/images/alphabets/arabic.gif",
+            "parent": "Wotu-Wolio",
+            "children": [],
+            "description": "Language of the Sultanate of Buton (Southeast Sulawesi). Historically written in Arabic script.",
+            "branch": "Wotu-Wolio"
+        },
+        "ternate": {
+            "name": "Ternate",
+            "period": "Unknown - Present",
+            "alphabet": "Arabic, Latin",
+            "alphabetImage": "/images/alphabets/arabic.gif",
+            "parent": "North Halmahera",
+            "children": [],
+            "description": "A North Halmahera (Papuan) language spoken in Ternate and North Maluku. Historical lingua franca for the spice trade.",
+            "branch": "West Papuan"
+        },
+        "asilulu": {
+            "name": "Asilulu",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Central Maluku",
+            "children": [],
+            "description": "Spoken in Ambon Island (Central Maluku). An Austronesian trade language.",
+            "branch": "Central Maluku"
+        },
+        "balinese-sasak-sumbawa": {
+            "name": "Balinese-Sasak-Sumbawa",
+            "period": "c. 1st Millennium AD",
+            "alphabet": "None",
+            "parent": "Malayo-Sumbawan",
+            "children": [
+                "Balinese",
+                "Sasak",
+                "Sumbawa"
+            ],
+            "description": "Ancestral group of languages in Bali and West Nusa Tenggara.",
+            "branch": "Malayo-Polynesian"
+        },
+        "central-eastern-mp": {
+            "name": "Central-Eastern Malayo-Polynesian",
+            "period": "c. 1500 BC - Present",
+            "alphabet": "None",
+            "parent": "Malayo-Polynesian",
+            "children": [
+                "Central Maluku",
+                "Timoric",
+                "Bima-Sumba"
+            ],
+            "description": "Major branch covering languages of Nusa Tenggara, Maluku, and parts of Papua.",
+            "branch": "Malayo-Polynesian"
+        },
+        "papuan-languages": {
+            "name": "Papuan Languages",
+            "period": "Pre-Austronesian - Present",
+            "alphabet": "None",
+            "parent": "Various Families",
+            "children": [],
+            "description": "Diverse non-Austronesian languages indigenous to New Guinea and neighboring islands.",
+            "branch": "Papuan"
+        },
+        "proto-south-sulawesi": {
+            "name": "Proto-South-Sulawesi",
+            "period": "c. 1000 BC",
+            "alphabet": "None",
+            "parent": "Malayo-Polynesian",
+            "children": [
+                "Tamanic",
+                "Makassaric",
+                "Seko",
+                "Lemolang",
+                "Northern",
+                "Massenrempulu",
+                "Pitu Ulunna Salu",
+                "Toraja",
+                "Bugis"
+            ],
+            "description": "Ancestor of major South Sulawesi languages.",
+            "branch": "South Sulawesi"
+        },
+        "toraja": {
+            "name": "Toraja (Sa'dan/Kalumpang/Mamasa)",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Proto-South-Sulawesi",
+            "children": [],
+            "description": "A group of languages spoken in the mountainous interior of South and West Sulawesi.",
+            "branch": "South Sulawesi"
+        },
+        "massenrempulu": {
+            "name": "Massenrempulu (Duri/Enrekang)",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Proto-South-Sulawesi",
+            "children": [],
+            "description": "Transitional languages between Bugis and Toraja.",
+            "branch": "South Sulawesi"
+        },
+        "pitu-ulunna-salu": {
+            "name": "Pitu Ulunna Salu",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Proto-South-Sulawesi",
+            "children": [],
+            "description": "A group of dialects in West Sulawesi.",
+            "branch": "South Sulawesi"
+        },
+        "seko": {
+            "name": "Seko",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Proto-South-Sulawesi",
+            "children": [],
+            "description": "Spoken in the Seko district, North Luwu.",
+            "branch": "South Sulawesi"
+        },
+        "lemolang": {
+            "name": "Lemolang",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Proto-South-Sulawesi",
+            "children": [],
+            "description": "A minor language of South Sulawesi.",
+            "branch": "South Sulawesi"
+        },
+        "mamuju": {
+            "name": "Mamuju",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "Proto-South-Sulawesi",
+            "children": [],
+            "description": "Spoken in Mamuju, West Sulawesi.",
+            "branch": "South Sulawesi"
+        },
+        "proto-minahasan": {
+            "name": "Proto-Minahasan",
+            "period": "c. 1000 BC",
+            "alphabet": "None",
+            "parent": "Malayo-Polynesian",
+            "children": [
+                "Tombulu",
+                "Tondano",
+                "Tonsea"
+            ],
+            "description": "Ancestor of languages in North Sulawesi.",
+            "branch": "Minahasan"
+        },
+        "bahasa-indonesia": {
+            "name": "Bahasa Indonesia",
+            "period": "1945 - Present",
+            "alphabet": "Latin",
+            "parent": "Classical Malay",
+            "children": [],
+            "description": "The standardized national language of Indonesia.",
+            "branch": "Malayic"
+        },
+        "bantenese": {
+            "name": "Bantenese (Jawa Serang)",
+            "period": "c. 16th Century - Present",
+            "alphabet": "Javanese (Carakan), Latin",
+            "alphabetImage": "/images/alphabets/javanese.gif",
+            "parent": "Middle Javanese",
+            "children": [],
+            "description": "Dialect of Javanese spoken in Banten (Serang, Cilegon). Retains archaic features from the Sultanate era.",
+            "branch": "Javanese",
+            "source": "Multamia R.M.T. Lauder (1993). Pemetaan dan Distribusi Bahasa-Bahasa di Tangerang"
+        },
+        "cirebonese": {
+            "name": "Cirebonese (Basa Cerbon)",
+            "period": "c. 15th Century - Present",
+            "alphabet": "Javanese (Carakan), Latin",
+            "alphabetImage": "/images/alphabets/javanese.gif",
+            "parent": "Middle Javanese",
+            "children": [],
+            "description": "Spoken in Cirebon and Indramayu. Acknowledged as a distinct dialect with considerable Sundanese influence.",
+            "branch": "Javanese",
+            "source": "Ayatrohaedi (1985). Bahasa Sunda di Daerah Cirebon"
+        },
+        "banyumasan": {
+            "name": "Banyumasan (Ngapak)",
+            "period": "Unknown - Present",
+            "alphabet": "Javanese (Carakan), Latin",
+            "alphabetImage": "/images/alphabets/javanese.gif",
+            "parent": "Modern Javanese",
+            "children": [],
+            "description": "Known for its 'Ngapak' pronunciation (retaining 'a' sound where standard uses 'o'). Spoken in western Central Java.",
+            "branch": "Javanese",
+            "source": "Wedhawati et al. (2006). Tata Bahasa Jawa Mutakhir"
+        },
+        "mataraman": {
+            "name": "Mataraman (Standard Javanese)",
+            "period": "17th Century - Present",
+            "alphabet": "Javanese (Carakan), Latin",
+            "alphabetImage": "/images/alphabets/javanese.gif",
+            "parent": "Modern Javanese",
+            "children": [],
+            "description": "The prestige dialect of Surakarta and Yogyakarta, forming the basis of standard Javanese.",
+            "branch": "Javanese",
+            "source": "Wedhawati et al. (2006). Tata Bahasa Jawa Mutakhir"
+        },
+        "arekan": {
+            "name": "Arekan (Surabayan/Malangan)",
+            "period": "19th Century - Present",
+            "alphabet": "Javanese (Carakan), Latin",
+            "alphabetImage": "/images/alphabets/javanese.gif",
+            "parent": "Modern Javanese",
+            "children": [],
+            "description": "Spoken in East Java (Surabaya, Malang). Known for its egalitarian and direct nature.",
+            "branch": "Javanese",
+            "source": "Krauße, Daniel (2017). A Description of Surabayan Javanese"
+        },
+        "osing": {
+            "name": "Osing",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Javanese",
+            "children": [],
+            "description": "Spoken by the Osing people in Banyuwangi. Considered by some as a distinct language due to Balinese influence.",
+            "branch": "Javanese",
+            "source": "Arps, Bernard (1992). Tembang in Two Traditions: Performance and Interpretation of Javanese Literature"
+        },
+        "tengger": {
+            "name": "Tengger",
+            "period": "Unknown - Present",
+            "alphabet": "Kawi (modified), Latin",
+            "alphabetImage": "/images/alphabets/kawi.gif",
+            "parent": "Old Javanese",
+            "children": [],
+            "description": "Archaic dialect spoken by the Tenggerese people in the Bromo mountains. Retains Old Javanese vocabulary.",
+            "branch": "Javanese",
+            "source": "Smith-Hefner, Nancy J. (1988). The Liturgy of Rice Production: The Tengger Javanese"
+        }
+    }
+}

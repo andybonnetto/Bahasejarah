@@ -1,0 +1,687 @@
+{
+    "regions": {
+        "sulawesi-utara": [
+            {
+                "languageId": "proto-minahasan",
+                "startYear": 0,
+                "endYear": 1500,
+                "color": "var(--c-green-light)"
+            },
+            {
+                "languageId": "tombulu",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "kalimantan": [
+            {
+                "languageId": "early-malay",
+                "startYear": 0,
+                "endYear": 700,
+                "color": "var(--c-teal-3)"
+            },
+            {
+                "languageId": "proto-malay",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-3)"
+            },
+            {
+                "languageId": "banjar",
+                "startYear": 1500,
+                "endYear": 1900,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "ngaju",
+                "startYear": 1500,
+                "endYear": 1900,
+                "color": "var(--c-teal-2)"
+            }
+        ],
+        "sulawesi-tengah": [
+            {
+                "languageId": "central-eastern-mp",
+                "startYear": 0,
+                "endYear": 1500,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "kaili",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "all": [
+            {
+                "languageId": "proto-malayo-polynesian",
+                "startYear": -2000,
+                "endYear": 0,
+                "color": "var(--c-teal-1)"
+            },
+            {
+                "languageId": "market-malay",
+                "startYear": 1900,
+                "endYear": 2026,
+                "color": "var(--c-teal-8)"
+            },
+            {
+                "languageId": "bahasa-indonesia",
+                "startYear": 2026,
+                "endYear": null,
+                "color": "var(--c-teal-10)"
+            }
+        ],
+        "sasak": [
+            {
+                "languageId": "proto-malayo-polynesian",
+                "startYear": -1000,
+                "endYear": 0,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "balinese-sasak-sumbawa",
+                "startYear": 0,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "sumbawa": [
+            {
+                "languageId": "proto-malayo-polynesian",
+                "startYear": -1000,
+                "endYear": 0,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "balinese-sasak-sumbawa",
+                "startYear": 0,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "flores": [
+            {
+                "languageId": "central-eastern-mp",
+                "startYear": -1000,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "sumba": [
+            {
+                "languageId": "central-eastern-mp",
+                "startYear": -1000,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "timor": [
+            {
+                "languageId": "central-eastern-mp",
+                "startYear": -1000,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "papua": [
+            {
+                "languageId": "papuan-languages",
+                "startYear": -1000,
+                "endYear": null,
+                "color": "var(--c-brown)"
+            }
+        ],
+        "maluku": [
+            {
+                "languageId": "central-eastern-mp",
+                "startYear": -1000,
+                "endYear": 1500,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "asilulu",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
+            },
+            {
+                "languageId": "ambonese-malay",
+                "startYear": 2026,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "nusatenggara": [
+            {
+                "languageId": "central-eastern-mp",
+                "startYear": -1000,
+                "endYear": null,
+                "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "ternate": [
+            {
+                "languageId": "papuan-languages",
+                "startYear": -1000,
+                "endYear": 1500,
+                "source": "Wikipedia: West Papuan languages",
+                "color": "var(--c-brown)"
+            },
+            {
+                "languageId": "ternate",
+                "startYear": 1500,
+                "endYear": null,
+                "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "central-java": [
+            {
+                "languageId": "early-javanese",
+                "startYear": 0,
+                "endYear": 700,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "old-javanese",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-5)"
+            },
+            {
+                "languageId": "sanskrit",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-5)"
+            },
+            {
+                "languageId": "sundanese",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-5)"
+            },
+            {
+                "languageId": "middle-javanese",
+                "startYear": 1500,
+                "endYear": 1900,
+                "color": "var(--c-teal-7)"
+            },
+            {
+                "languageId": "modern-javanese",
+                "startYear": 1900,
+                "endYear": 2026,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "mataraman",
+                "startYear": 1900,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "banyumasan",
+                "startYear": 1900,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "east-java": [
+            {
+                "languageId": "early-javanese",
+                "startYear": 0,
+                "endYear": 700,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "old-javanese",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-5)"
+            },
+            {
+                "languageId": "middle-javanese",
+                "startYear": 1500,
+                "endYear": 1900,
+                "color": "var(--c-teal-7)"
+            },
+            {
+                "languageId": "modern-javanese",
+                "startYear": 1900,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "arekan",
+                "startYear": 1900,
+                "endYear": 2026,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "arekan",
+                "startYear": 2026,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "osing",
+                "startYear": 1900,
+                "endYear": 2026,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "osing",
+                "startYear": 2026,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "tengger",
+                "startYear": 1900,
+                "endYear": 2026,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "tengger",
+                "startYear": 2026,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "madurese",
+                "startYear": 1900,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "yogyakarta": [
+            {
+                "languageId": "early-javanese",
+                "startYear": 0,
+                "endYear": 700,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "old-javanese",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-5)"
+            },
+            {
+                "languageId": "sanskrit",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-5)"
+            },
+            {
+                "languageId": "middle-javanese",
+                "startYear": 1500,
+                "endYear": 1900,
+                "color": "var(--c-teal-7)"
+            },
+            {
+                "languageId": "modern-javanese",
+                "startYear": 1900,
+                "endYear": 2026,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "mataraman",
+                "startYear": 1900,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "sundanese": [
+            {
+                "languageId": "early-javanese",
+                "startYear": 0,
+                "endYear": 700,
+                "source": "Wikipedia: Sundanese language (Diverged from Javanese)",
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "sundanese",
+                "startYear": 700,
+                "endYear": null,
+                "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "aceh": [
+            {
+                "languageId": "early-malay",
+                "startYear": 0,
+                "endYear": 700,
+                "color": "var(--c-teal-3)"
+            },
+            {
+                "languageId": "old-malay",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-4)"
+            },
+            {
+                "languageId": "classical-malay",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "kepulauan-riau": [
+            {
+                "languageId": "early-malay",
+                "startYear": 0,
+                "endYear": 700,
+                "color": "var(--c-teal-3)"
+            },
+            {
+                "languageId": "old-malay",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-4)"
+            },
+            {
+                "languageId": "classical-malay",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "madurese": [
+            {
+                "languageId": "early-javanese",
+                "startYear": 0,
+                "endYear": 700,
+                "source": "Wikipedia: Madurese language",
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "madurese",
+                "startYear": 700,
+                "endYear": null,
+                "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "sumatra": [
+            {
+                "languageId": "early-malay",
+                "startYear": 0,
+                "endYear": 700,
+                "color": "var(--c-teal-3)"
+            },
+            {
+                "languageId": "old-malay",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-4)"
+            },
+            {
+                "languageId": "sanskrit",
+                "startYear": 700,
+                "endYear": 1500,
+                "color": "var(--c-teal-4)"
+            },
+            {
+                "languageId": "classical-malay",
+                "startYear": 1500,
+                "endYear": 1900,
+                "color": "var(--c-teal-6)"
+            }
+        ],
+        "minangkabau": [
+            {
+                "languageId": "early-malay",
+                "startYear": 0,
+                "endYear": 700,
+                "source": "Wikipedia: Minangkabau language",
+                "color": "var(--c-teal-3)"
+            },
+            {
+                "languageId": "old-malay",
+                "startYear": 700,
+                "endYear": 1500,
+                "source": "Wikipedia: Minangkabau language",
+                "color": "var(--c-teal-4)"
+            },
+            {
+                "languageId": "minangkabau",
+                "startYear": 1500,
+                "endYear": null,
+                "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "bali": [
+            {
+                "languageId": "balinese-sasak-sumbawa",
+                "startYear": 0,
+                "endYear": 1500,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "balinese",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-7)"
+            }
+        ],
+        "sulawesi-selatan": [
+            {
+                "languageId": "proto-south-sulawesi",
+                "startYear": 0,
+                "endYear": 1500,
+                "color": "var(--c-green-light)"
+            },
+            {
+                "languageId": "bugis",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "makassarese",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "toraja",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "massenrempulu",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "seko",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "lemolang",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "sulawesi-barat": [
+            {
+                "languageId": "proto-south-sulawesi",
+                "startYear": 0,
+                "endYear": 1500,
+                "color": "var(--c-green-light)"
+            },
+            {
+                "languageId": "mandar",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "pitu-ulunna-salu",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "mamuju",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "gorontalo": [
+            {
+                "languageId": "proto-minahasan",
+                "startYear": 0,
+                "endYear": 1500,
+                "color": "var(--c-green-light)"
+            },
+            {
+                "languageId": "gorontalo",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "sulawesi-tenggara": [
+            {
+                "languageId": "central-eastern-mp",
+                "startYear": 0,
+                "endYear": 1500,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "wolio",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "lampung": [
+            {
+                "languageId": "lampung",
+                "startYear": 1500,
+                "endYear": null,
+                "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "banten": [
+            {
+                "languageId": "middle-javanese",
+                "startYear": 1500,
+                "endYear": 1900,
+                "color": "var(--c-teal-7)"
+            },
+            {
+                "languageId": "bantenese",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "modern-javanese",
+                "startYear": 1900,
+                "endYear": 2026,
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "sundanese",
+                "startYear": 1900,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "west-java": [
+            {
+                "languageId": "sundanese",
+                "startYear": 1500,
+                "endYear": null,
+                "source": "Wikipedia: Sundanese language",
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "middle-javanese",
+                "startYear": 1500,
+                "endYear": 1900,
+                "source": "Wikipedia: Sundanese language",
+                "color": "var(--c-teal-7)"
+            },
+            {
+                "languageId": "cirebonese",
+                "startYear": 1500,
+                "endYear": null,
+                "source": "Wikipedia: Sundanese language",
+                "color": "var(--c-teal-9)"
+            },
+            {
+                "languageId": "modern-javanese",
+                "startYear": 1900,
+                "endYear": 2026,
+                "color": "var(--c-teal-9)"
+            }
+        ],
+        "malay-world": [
+            {
+                "languageId": "classical-malay",
+                "startYear": 1500,
+                "endYear": null,
+                "color": "var(--c-teal-6)"
+            }
+        ],
+        "banjar": [
+            {
+                "languageId": "banjar",
+                "startYear": 1500,
+                "endYear": null,
+                "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-10)"
+            }
+        ],
+        "ngaju": [
+            {
+                "languageId": "ngaju",
+                "startYear": 1500,
+                "endYear": null,
+                "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-10)"
+            }
+        ],
+        "asilulu": [
+            {
+                "languageId": "asilulu",
+                "startYear": 1500,
+                "endYear": null,
+                "source": "Source: Badan Bahasa",
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "archipelago": [
+            {
+                "languageId": "market-malay",
+                "startYear": 1900,
+                "endYear": null,
+                "color": "var(--c-teal-8)"
+            }
+        ],
+        "madura": [
+            {
+                "languageId": "madurese",
+                "startYear": 2026,
+                "endYear": null,
+                "color": "var(--c-teal-9)"
+            }
+        ]
+    }
+}
