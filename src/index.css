@@ -230,6 +230,8 @@ g[opacity="0"] {
 .timeline-container {
   position: relative;
   width: 100%;
+  padding-top: 30px;
+  /* Make space for axis labels */
 }
 
 .timeline-wrapper {

@@ -201,7 +201,7 @@
             {
                 "languageId": "sundanese",
                 "startYear": 700,
-                "endYear": 1500,
+                "endYear": null,
                 "color": "var(--c-teal-5)"
             },
             {
@@ -588,7 +588,7 @@
             {
                 "languageId": "sundanese",
                 "startYear": 700,
-                "endYear": 1500,
+                "endYear": null,
                 "source": "Wikipedia: Banten Girang (Sunda Kingdom)",
                 "color": "var(--c-teal-9)"
             },
@@ -608,12 +608,6 @@
                 "languageId": "modern-javanese",
                 "startYear": 1900,
                 "endYear": 2026,
-                "color": "var(--c-teal-9)"
-            },
-            {
-                "languageId": "sundanese",
-                "startYear": 1900,
-                "endYear": null,
                 "color": "var(--c-teal-9)"
             }
         ],
