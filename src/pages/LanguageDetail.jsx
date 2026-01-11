@@ -35,11 +35,13 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
 
     return (
         <div className="language-detail-container">
+            {/* Back button removed - section is now scrollable */}
             <button
-                onClick={onBack}
-                className="lang-back-btn"
+                className="btn-scroll-up"
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                title="Scroll back to Map"
             >
-                ← Back to Map
+                ↑
             </button>
 
             <div className="glass-panel language-detail-content">

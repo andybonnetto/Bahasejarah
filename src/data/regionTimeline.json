@@ -28,6 +28,27 @@
                 "color": "var(--c-teal-3)"
             },
             {
+                "languageId": "lawangan",
+                "startYear": 0,
+                "endYear": null,
+                "source": "Wikipedia: East Barito Languages",
+                "color": "var(--c-teal-8)"
+            },
+            {
+                "languageId": "paser",
+                "startYear": 0,
+                "endYear": null,
+                "source": "Wikipedia: Paser language",
+                "color": "var(--c-teal-8)"
+            },
+            {
+                "languageId": "benuaq",
+                "startYear": 0,
+                "endYear": null,
+                "source": "Wikipedia: Benuaq language",
+                "color": "var(--c-teal-8)"
+            },
+            {
                 "languageId": "banjar",
                 "startYear": 1500,
                 "endYear": 1900,
@@ -570,6 +591,19 @@
         ],
         "lampung": [
             {
+                "languageId": "proto-lampungic",
+                "startYear": 0,
+                "endYear": 1500,
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "old-malay",
+                "startYear": 700,
+                "endYear": 1500,
+                "source": "Wikipedia: Srivijaya in Lampung",
+                "color": "var(--c-teal-4)"
+            },
+            {
                 "languageId": "lampung",
                 "startYear": 1500,
                 "endYear": null,
@@ -656,6 +690,20 @@
             }
         ],
         "banjar": [
+            {
+                "languageId": "maanyan",
+                "startYear": 0,
+                "endYear": 1500,
+                "source": "Wikipedia: Ma'anyan (Dayak Barito) - Malagasy Ancestors",
+                "color": "var(--c-teal-2)"
+            },
+            {
+                "languageId": "old-malay",
+                "startYear": 600,
+                "endYear": 1500,
+                "source": "Wikipedia: Srivijaya Influence",
+                "color": "var(--c-teal-4)"
+            },
             {
                 "languageId": "banjar",
                 "startYear": 1500,

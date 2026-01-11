@@ -1,4 +1,5 @@
 import React, { useRef, useMemo, useEffect } from 'react';
+import { getLanguageColor, getLanguageStartYears } from '../utils/colorUtils';
 
 const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs, onClose, onLanguageClick, currentYear }) => {
     const containerRef = useRef(null);
@@ -10,6 +11,9 @@ const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs
     const ROW_HEIGHT = 40;
 
     if (!regionId || !regionTimeline) return null;
+
+    // Memoize start years
+    const startYears = useMemo(() => getLanguageStartYears(regionTimeline), [regionTimeline]);
 
     const historyList = useMemo(() => {
         const regional = regionTimeline.regions[regionId] || [];
@@ -61,6 +65,9 @@ const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs
             // Determine Active State
             const isActive = currentYear >= item.startYear && (item.endYear === null || currentYear < item.endYear);
 
+            // Calculate Color
+            const color = getLanguageColor(item.languageId, currentYear, languageDefs, startYears, { overrideOpacity: 1 });
+
             return {
                 ...item,
                 langDef,
@@ -68,7 +75,8 @@ const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs
                 width: Math.max(widthPercent, 0.5),
                 rowIndex,
                 isActive,
-                label: langDef ? langDef.name : item.languageId
+                label: langDef ? langDef.name : item.languageId,
+                displayColor: color
             };
         });
 
@@ -76,7 +84,7 @@ const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs
             segments: processedSegments,
             totalHeight: (uniqueIds.length * ROW_HEIGHT) + 40
         };
-    }, [historyList, languageDefs, currentYear]);
+    }, [historyList, languageDefs, currentYear, startYears]);
 
 
     // Generate Axis Ticks
@@ -94,8 +102,20 @@ const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs
         if (containerRef.current) {
             const activeElement = containerRef.current.querySelector('.timeline-segment.active');
             if (activeElement) {
-                // Scroll into view with smooth behavior
-                activeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                // Determine container width
+                const containerWidth = containerRef.current.clientWidth;
+                // Determine element position relative to container
+                const elementLeft = activeElement.offsetLeft;
+                const elementWidth = activeElement.offsetWidth;
+
+                // Calculate centered scroll position
+                const scrollLeft = elementLeft - (containerWidth / 2) + (elementWidth / 2);
+
+                // Scroll only the container
+                containerRef.current.scrollTo({
+                    left: scrollLeft,
+                    behavior: 'smooth'
+                });
             }
         }
     }, [currentYear, regionId]); // Re-run when year or region changes
@@ -128,7 +148,7 @@ const RegionHistoryPanel = ({ regionId, regionName, regionTimeline, languageDefs
                                 left: `${seg.left}%`,
                                 width: `${seg.width}%`,
                                 top: `${seg.rowIndex * ROW_HEIGHT + 10}px`,
-                                backgroundColor: seg.color || 'var(--accent-color)',
+                                backgroundColor: seg.displayColor, // Use calculated color
                                 opacity: seg.isActive ? 1 : 0.6
                             }}
                             title={`${seg.langDef ? seg.langDef.name : seg.languageId} (${seg.startYear} - ${seg.endYear || 'Present'})`}

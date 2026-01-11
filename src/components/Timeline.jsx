@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Timeline = ({ currentYear, onChange }) => {
+const Timeline = ({ currentYear, onChange, selectedLanguage }) => {
     const minYear = -2000;
-    const maxYear = 2024;
+    const maxYear = 2026;
 
     const formatYear = (year) => {
         if (year < 0) return `${Math.abs(year)} BC`;
@@ -12,7 +12,7 @@ const Timeline = ({ currentYear, onChange }) => {
     return (
         <div className="glass-panel timeline-component">
             <div style={{ marginBottom: '10px', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--accent-color)' }}>
-                {formatYear(currentYear)}
+                {selectedLanguage ? `${selectedLanguage.name} - ` : ''}{formatYear(currentYear)}
             </div>
             <input
                 type="range"

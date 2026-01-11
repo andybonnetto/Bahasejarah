@@ -555,6 +555,78 @@
             "branch": "Javanese",
             "source": "Smith-Hefner, Nancy J. (1988). The Liturgy of Rice Production: The Tengger Javanese",
             "wikiUrl": "https://en.wikipedia.org/wiki/Tengger_language"
+        },
+        "maanyan": {
+            "name": "Ma'anyan",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Ma'anyan Dayak people in Central and South Kalimantan. Closely related to Malagasy (Madagascar).",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Ma%27anyan_language"
+        },
+        "proto-lampungic": {
+            "name": "Proto-Lampungic",
+            "period": "c. 500 BC - 1500 AD",
+            "alphabet": "None",
+            "parent": "Western Malayo-Polynesian",
+            "children": [
+                "Lampung"
+            ],
+            "description": "Ancestral form of the Lampung language family.",
+            "branch": "Lampungic",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Lampungic_languages"
+        },
+        "lawangan": {
+            "name": "Lawangan",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Lawangan people in Central and East Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Lawangan_language"
+        },
+        "paser": {
+            "name": "Paser",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Paser people in East Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Paser_language"
+        },
+        "benuaq": {
+            "name": "Benuaq",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Benuaq people in East Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Benuaq_language"
+        },
+        "tunjung": {
+            "name": "Tunjung",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Tunjung people in East Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Tunjung_language"
+        },
+        "dusun-deyah": {
+            "name": "Dusun Deyah",
+            "period": "Unknown - Present",
+            "alphabet": "Latin",
+            "parent": "East Barito",
+            "children": [],
+            "description": "Spoken by the Dusun Deyah people in South Kalimantan.",
+            "branch": "East Barito",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Dusun_Deyah_language"
         }
     }
 }
