@@ -88,14 +88,21 @@ function App() {
     setHoveredInfo(null);
   };
 
-  const handleRegionClick = () => {
-    if (hoveredInfo) {
+  const handleRegionClick = (regionId, regionName) => {
+    // If arguments are provided (direct click from Map), use them.
+    // Otherwise fall back to hoveredInfo (if any), though direct click is preferred.
+    const rId = regionId || (hoveredInfo && hoveredInfo.regionId);
+    const rName = regionName || (hoveredInfo && hoveredInfo.regionName);
+
+    if (rId) {
       // Open the region history panel
       setSelectedRegionHistory({
-        regionId: hoveredInfo.regionId,
-        regionName: hoveredInfo.regionName
+        regionId: rId,
+        regionName: rName || rId
       });
       setSidePanelData(null);
+      // Clear hover info to ensure clean state, especially on mobile
+      setHoveredInfo(null);
     }
   };
 
@@ -125,12 +132,13 @@ function App() {
           </header>
 
           <main style={{ width: '100%', height: '100%' }}>
-            <div onClick={handleRegionClick} style={{ width: '100%', height: '100%' }}>
+            <div style={{ width: '100%', height: '100%' }}>
               <Map
                 year={currentYear}
                 hoveredRegion={hoveredInfo ? 'active' : null}
                 onRegionHover={handleRegionHover}
                 onRegionLeave={handleRegionLeave}
+                onRegionClick={handleRegionClick}
                 regionTimeline={regionTimeline} // Pass new data
                 languageDefs={languageDefinitions.languages} // Pass definitions for color lookups if needed
               />

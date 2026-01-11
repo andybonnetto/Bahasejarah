@@ -9,7 +9,7 @@ const InfoPanel = ({ data, mousePosition }) => {
     const languages = Array.isArray(languagesData) ? languagesData : [languagesData];
 
     return (
-        <div className="glass-panel" style={{
+        <div className="glass-panel info-panel" style={{
             position: 'fixed',
             top: mousePosition.y + 20,
             left: mousePosition.x + 20,

@@ -70,21 +70,7 @@ const REGION_MAPPING = {
   'NTB-Small-1': 'nusatenggara'
 };
 
-const Map = ({ year, hoveredRegion, onRegionHover, onRegionLeave, regionTimeline, languageDefs }) => {
-
-  /*
-  const getActiveLanguages = (regionId) => {
-    const history = regionTimeline.regions[regionId];
-    if (!history) return null;
-    return history.filter(item => {
-        const startOk = item.startYear <= year;
-        const endOk = item.endYear === null || item.endYear > year;
-        return startOk && endOk;
-    });
-  };
-  */
-
-  // Actually, I should use the function I partially defined.
+const Map = ({ year, hoveredRegion, onRegionHover, onRegionLeave, onRegionClick, regionTimeline, languageDefs }) => {
 
   const getActiveLanguages = (regionId) => {
     // If regionTimeline is not yet loaded or passed (initial render), handle gracefully
@@ -109,22 +95,11 @@ const Map = ({ year, hoveredRegion, onRegionHover, onRegionLeave, regionTimeline
 
     if (entries.length === 0) {
       // Fallback for some specific islands that might resort to 'archipelago' if 'all' missed?
-      // In original logic: specific > all > archipelago
       entries = getActiveLanguages('archipelago');
     }
 
     if (entries.length > 0) {
       // Return the color of the first valid entry.
-      // We prefer specific languages over defaults if multiple?
-      // The list is chronological by default from conversion? 
-      // No, conversion logic pushed chronologically.
-      // But active list is filtered. 
-      // We probably want the most "specific" or "recent" update?
-      // Actually, if multiple languages coexist, usually one is dominant or they share color in original data (region-based).
-      // Let's take the last one in the list (most recent addition?) or first?
-      // Original data: list of languages. "color" was on region object.
-      // My conversion put color on each interval.
-      // I'll take the first one.
       return { color: entries[0].color || '#334155' };
     }
 
@@ -166,16 +141,23 @@ g[id = "${svgId}"]:hover path {
     }
   };
 
+  const handleRegionClick = (e) => {
+    const group = e.target.closest('g[id]');
+    if (group && REGION_MAPPING[group.id]) {
+      const mappingId = REGION_MAPPING[group.id];
+      const regionData = getRegionData(mappingId);
+      const regionName = group.id.replace(/-/g, ' ');
+      if (onRegionClick) {
+        onRegionClick(mappingId, regionName);
+      }
+    }
+  };
+
   return (
     <div className="map-container"
       onMouseLeave={onRegionLeave}
       onMouseMove={handleMouseMove}
-      onClick={(e) => {
-        const group = e.target.closest('g[id]');
-        if (group && REGION_MAPPING[group.id]) {
-          // Trigger click logic if needed (currently reusing hover logic for selection in App)
-        }
-      }}
+      onClick={handleRegionClick}
     >
       <style>{generateStyles()}</style>
       <IndonesiaMap

@@ -85,6 +85,13 @@
   --glass-border: rgba(0, 0, 0, 0.1);
   --axis-line-color: rgba(0, 0, 0, 0.1);
   --card-bg: #f8fafc;
+  --glass-border: rgba(0, 0, 0, 0.1);
+  --axis-line-color: rgba(0, 0, 0, 0.1);
+  --card-bg: #f8fafc;
+}
+
+[data-theme='light'] .header-subtitle {
+  color: #000000;
 }
 
 [data-theme='light'] .timeline-segment.active {
@@ -358,7 +365,7 @@ g[opacity="0"] {
 }
 
 .header-logo {
-  height: 6rem;
+  height: 8rem;
   width: auto;
   position: absolute;
   top: 0;
@@ -383,8 +390,11 @@ g[opacity="0"] {
 }
 
 .header-subtitle {
-  margin: 5px 0 0 0;
+  margin: 30px 0 0 0;
   opacity: 0.8;
+  font-weight: 300;
+  color: #ffffff;
+  /* Explicitly white in dark mode */
 }
 
 .theme-toggle-container {
@@ -551,5 +561,10 @@ g[opacity="0"] {
 
   .language-title {
     font-size: 2.2rem;
+  }
+
+  /* Hide hover info panel on mobile as it's distracting and we use direct click */
+  .info-panel {
+    display: none !important;
   }
 }
