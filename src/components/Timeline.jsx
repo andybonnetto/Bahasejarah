@@ -10,19 +10,7 @@ const Timeline = ({ currentYear, onChange }) => {
     };
 
     return (
-        <div className="glass-panel" style={{
-            position: 'fixed',
-            bottom: '40px',
-            left: '50%',
-            transform: 'translateX(-50%)',
-            width: '80%',
-            maxWidth: '800px',
-            padding: '20px',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            zIndex: 100
-        }}>
+        <div className="glass-panel timeline-component">
             <div style={{ marginBottom: '10px', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--accent-color)' }}>
                 {formatYear(currentYear)}
             </div>

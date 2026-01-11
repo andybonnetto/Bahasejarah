@@ -168,7 +168,6 @@ g[id = "${svgId}"]:hover path {
 
   return (
     <div className="map-container"
-      style={{ position: 'relative', width: '100%', height: 'calc(100vh - 100px)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
       onMouseLeave={onRegionLeave}
       onMouseMove={handleMouseMove}
       onClick={(e) => {

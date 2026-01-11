@@ -42,17 +42,7 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
     };
 
     return (
-        <div style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
-            background: 'var(--bg-color)',
-            zIndex: 200,
-            overflowY: 'auto',
-            padding: '40px'
-        }}>
+        <div className="language-detail-container">
             <button
                 onClick={onBack}
                 style={{
@@ -69,10 +59,10 @@ const LanguageDetail = ({ language, onBack, onNavigate }) => {
                 ← Back to Map
             </button>
 
-            <div className="glass-panel" style={{ padding: '40px', maxWidth: '800px', margin: '0 auto' }}>
-                <h1 style={{ fontSize: '3rem', color: 'var(--accent-color)', marginTop: 0 }}>{language.name}</h1>
+            <div className="glass-panel language-detail-content">
+                <h1 className="language-title">{language.name}</h1>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '30px' }}>
+                <div className="language-detail-grid">
                     <div>
                         <h3>Period</h3>
                         <p>{language.period}</p>

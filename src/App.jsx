@@ -109,19 +109,16 @@ function App() {
         />
       ) : (
         <>
-          <header style={{
-            position: 'absolute',
-            top: 20,
-            left: 20,
-            zIndex: 10,
-            pointerEvents: 'none'
-          }}>
-            <div className="glass-panel" style={{ padding: '20px', pointerEvents: 'auto', display: 'flex', alignItems: 'center', gap: '20px' }}>
-              <div>
-                <h1 style={{ margin: 0, fontSize: '2rem', color: 'var(--accent-color)' }}>Bahasejarah</h1>
-                <p style={{ margin: '5px 0 0 0', opacity: 0.8 }}>History of Indonesian Languages</p>
+          <header className="app-header">
+            <div className="glass-panel header-content">
+              <div className="header-title-container">
+                <div className="logo-container">
+                  <img src={`${import.meta.env.BASE_URL}logo_light.svg`} alt="Bahasejarah" className="header-logo logo-dark" />
+                  <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Bahasejarah" className="header-logo logo-light" />
+                </div>
+                <p className="header-subtitle">History of Indonesian Languages</p>
               </div>
-              <div style={{ borderLeft: '1px solid var(--glass-border)', paddingLeft: '20px', marginLeft: '10px' }}>
+              <div className="theme-toggle-container">
                 <ThemeToggle isDark={theme === 'dark'} toggleTheme={toggleTheme} />
               </div>
             </div>
