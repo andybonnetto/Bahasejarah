@@ -1,4 +1,6 @@
-# Bahasejarah
+<div align="center">
+  <img src="public/logo.svg" alt="Bahasejarah" width="120" />
+</div>
 
 [![Visit Website](https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge)](https://andybonnetto.github.io/Bahasejarah/)
 
